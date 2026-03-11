@@ -85,17 +85,7 @@ This repository exists as part of a DevOps learning portfolio to demonstrate:
 
 ---
 
-## Future Improvements
-
-* Terraform Modules
-* Remote State (S3 + DynamoDB)
-* Infrastructure linting (tflint)
-* Automated deployment
-* Docker integration
-* Kubernetes deployment
-
----
-
 ## Author
 
-DevOps portfolio project by Beako-code.
+DevOps portfolio project by [beako-code](https://github.com/beako-code).
+

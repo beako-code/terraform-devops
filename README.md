@@ -87,5 +87,6 @@ This repository exists as part of a DevOps learning portfolio to demonstrate:
 
 ## Author
 
-DevOps portfolio project by [beako-code](https://github.com/beako-code).
+DevOps portfolio project by ![beako-code](https://github.com/beako-code).
+
 

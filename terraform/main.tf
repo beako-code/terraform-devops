@@ -1,8 +1,15 @@
-resource "aws_instance" "web" {
-  ami           = "ami-0c02fb55956c7d316"
-  instance_type = "t2.micro"
-
-  tags = {
-    Name = "devops-portfolio-server"
+terraform {
+  required_providers {
+    local = {
+      source = "hashicorp/local"
+      version = "~> 2.4"
+    }
   }
+}
+
+provider "local" {}
+
+resource "local_file" "example" {
+  content  = "Terraform DevOps Portfolio"
+  filename = "example.txt"
 }

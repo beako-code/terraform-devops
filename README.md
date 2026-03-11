@@ -1,12 +1,14 @@
 # Terraform DevOps Portfolio Project
 
-Infrastructure as Code project demonstrating automated infrastructure provisioning using Terraform with CI/CD pipelines via GitHub Actions.
+Infrastructure as Code project demonstrating Terraform validation workflows integrated with CI/CD using GitHub Actions.
 
 ---
 
 ## Overview
 
-This project provisions cloud infrastructure using Terraform and validates infrastructure changes automatically through GitHub Actions.
+This project demonstrates a basic DevOps workflow for Infrastructure as Code using Terraform.
+
+Instead of provisioning real cloud infrastructure, the repository focuses on validating Terraform configurations automatically through a CI pipeline. This approach allows safe experimentation and learning without requiring cloud credentials.
 
 The goal of this repository is to demonstrate core DevOps practices:
 
@@ -22,7 +24,7 @@ The goal of this repository is to demonstrate core DevOps practices:
 * Terraform
 * GitHub Actions
 * Linux (WSL)
-* AWS (or planned cloud provider)
+* Git
 
 ---
 
@@ -31,7 +33,7 @@ The goal of this repository is to demonstrate core DevOps practices:
 The GitHub Actions pipeline automatically runs on:
 
 * Pull Requests
-* Push to main branch
+* Push to the `main` branch
 
 Pipeline steps:
 
@@ -40,9 +42,8 @@ Pipeline steps:
 3. Terraform Init
 4. Terraform Format Check
 5. Terraform Validate
-6. Terraform Plan
 
-This ensures infrastructure code remains valid and consistent.
+This ensures Terraform configurations remain consistent and correctly formatted.
 
 ---
 
@@ -60,16 +61,10 @@ Validate configuration:
 terraform validate
 ```
 
-Preview infrastructure changes:
+Check formatting:
 
 ```
-terraform plan
-```
-
-Apply infrastructure:
-
-```
-terraform apply
+terraform fmt
 ```
 
 ---
@@ -78,15 +73,13 @@ terraform apply
 
 This repository exists as part of a DevOps learning portfolio to demonstrate:
 
-* Infrastructure automation
-* CI/CD integration
-* Terraform best practices
-* Git-based infrastructure workflows
+* Infrastructure as Code workflows
+* Terraform configuration validation
+* CI/CD automation using GitHub Actions
+* Git-based infrastructure development practices
 
 ---
 
 ## Author
 
-DevOps portfolio project by ![beako-code](https://github.com/beako-code).
-
-
+DevOps portfolio project by **[beako-code](https://github.com/beako-code)**.

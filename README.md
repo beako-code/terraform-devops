@@ -80,6 +80,12 @@ This repository exists as part of a DevOps learning portfolio to demonstrate:
 
 ---
 
+### Variable Validation Example
+
+If the content contains the word "Beatrice", Terraform will reject the configuration.
+
+---
+
 ## Author
 
 DevOps portfolio project by **[beako-code](https://github.com/beako-code)**.

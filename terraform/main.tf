@@ -3,3 +3,6 @@ module "file_example" {
 
   content = var.file_content
 }
+
+# this is intentional commentary for a pull req for a test
+# i messed up lol

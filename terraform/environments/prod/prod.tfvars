@@ -1,0 +1,1 @@
+file_content = "This is the PRODUCTION environment"

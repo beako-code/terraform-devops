@@ -1,0 +1,1 @@
+file_content = "This is stage environment"
